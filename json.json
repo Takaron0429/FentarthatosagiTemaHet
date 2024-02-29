@@ -1,0 +1,151 @@
+{
+    "kerdesek":
+    [
+        {
+            "kerdes": "Mikor szoktál felkelni hétvégente?",
+            "valasz1": "Általában koránkelő vagyok, legkésőbb 7-kor már ébren vagyok.",
+            "valasz1pontszam": "1",
+            "valasz2": "Korán kelni? Soha! Ha lehet, akkor délnél előbb fel sem kelek. ",
+            "valasz2pontszam": "2",
+            "valasz3": "Rosszul alszom, ezért mindig addig alszom, amíg csak lehet. ",
+            "valasz3pontszam": "3",
+            "tipp": "safs",
+            "kep": "sad"
+        },
+        {
+            "kerdes": "Szoktál esténként nassolni?",
+            "valasz1": "Egy jó film vagy sorozat, egy pizza, chips vagy pattogatott kukorica… ez az ideális esti program. ;)",
+            "valasz1pontszam": "3",
+            "valasz2": "Igen, de ha lehet, akkor aszalt gyümölcsöt vagy olajos magvakat.",
+            "valasz2pontszam": "2",
+            "valasz3": "Este sosem. Vigyázok az alakomra!",
+            "valasz3pontszam": "1",
+            "tipp": "safs",
+            "kep": "sad"
+        },
+        {
+            "kerdes": "Mennyit sportolsz?",
+            "valasz1": "A sport az életem. Minden nap van valami: edzés, futás, aerobic…",
+            "valasz1pontszam": "1",
+            "valasz2": "Heti 3 alkalommal biztos. Szeretek mozogni.",
+            "valasz2pontszam": "2",
+            "valasz3": "Biztos, hogy nem. Lustaság fél egészség!",
+            "valasz3pontszam": "3",
+            "tipp": "safs",
+            "kep": "sad"
+        },
+        {
+            "kerdes": "Mi a kedvenc sportod?",
+            "valasz1": "Csapatjátékok leginkább",
+            "valasz1pontszam": "1",
+            "valasz2": "Az egyszemélyes sportok híve vagyok",
+            "valasz2pontszam": "2",
+            "valasz3": "Sport? Mi is az?",
+            "valasz3pontszam": "3",
+            "tipp": "safs",
+            "kep": "sad"
+        },
+        {
+            "kerdes": "Mi az, amit a legszívesebben megennél most?",
+            "valasz1": "Egy jó steak vagy oldalas, ha lehet hasábbal és egy kis salátával.",
+            "valasz1pontszam": "2",
+            "valasz2": "Egy lazacfilé salátával és dresszinggel jólesne most.",
+            "valasz2pontszam": "1",
+            "valasz3": "Elég lesz egy csokitorta is, köszönöm!",
+            "valasz3pontszam": "3",
+            "tipp": "safs",
+            "kep": "sad"
+        },
+        {
+            "kerdes": "Milyen táplálékkiegészítőket szedsz rendszeresen?",
+            "valasz1": "Az meg mi?",
+            "valasz1pontszam": "3",
+            "valasz2": "Vitaminokat, abból is inkább C-, D vitamin.",
+            "valasz2pontszam": "2",
+            "valasz3": "Pro- és prebiotikumokat, vitaminokat és proteint, ha edzek.",
+            "valasz3pontszam": "1",
+            "tipp": "safs",
+            "kep": "sad"
+        },
+        {
+            "kerdes": "Milyen táplálékkiegészítőket szedsz rendszeresen?",
+            "valasz1": "Az meg mi?",
+            "valasz1pontszam": "3",
+            "valasz2": "Vitaminokat, abból is inkább C-, D vitamin.",
+            "valasz2pontszam": "2",
+            "valasz3": "Pro- és prebiotikumokat, vitaminokat és proteint, ha edzek.",
+            "valasz3pontszam": "1",
+            "tipp": "safs",
+            "kep": "sad"
+        },
+        {
+            "kerdes": "Mennyi húst eszel egy héten?",
+            "valasz1": "Legalább 4-5 kg-ot biztosan. Kell az erő.",
+            "valasz1pontszam": "3",
+            "valasz2": "Általában 2 kg, vagy annál kevesebb.",
+            "valasz2pontszam": "2",
+            "valasz3": "Nem eszem húst, vegetáriánus vagyok.",
+            "valasz3pontszam": "1",
+            "tipp": "safs",
+            "kep": "sad"
+        },
+        {
+            "kerdes": "Próbáltad már a húshelyettesítő termékeket?",
+            "valasz1": "Igen, nekem ízlett.",
+            "valasz1pontszam": "1",
+            "valasz2": "Nem, minek? Ha húst akarok enni, akkor azt eszem.",
+            "valasz2pontszam": "3",
+            "valasz3": "Igen, de nem az én világom.",
+            "valasz3pontszam": "2",
+            "tipp": "safs",
+            "kep": "sad"
+        },
+        {
+            "kerdes": "Tudod mit jelent a mikrobiom?",
+            "valasz1": "A velünk élő mikróbák, ezek egy része a bélrendszerben található jótékony baktériumok.",
+            "valasz1pontszam": "1",
+            "valasz2": "A bélben található rossz baktériumok.",
+            "valasz2pontszam": "2",
+            "valasz3": "Nem tudom mi az, de nem is szeretem ezeket a latin szavas dolgokat.",
+            "valasz3pontszam": "3",
+            "tipp": "safs",
+            "kep": "sad"
+        },
+        {
+            "kerdes": "Mennyi vizet iszol egy nap?",
+            "valasz1": "1,5 L lecsúszik nagy nehezen.",
+            "valasz1pontszam": "2",
+            "valasz2": "Inkább Cola, Fanta, Hell. Ez számít?",
+            "valasz2pontszam": "3",
+            "valasz3": "2-2,5 L napi szinten megvan.",
+            "valasz3pontszam": "1",
+            "tipp": "safs",
+            "kep": "sad"
+        },
+        {
+            "kerdes": "Mennyi a képernyőidőd a telefonodon egy hét alatt?",
+            "valasz1": "50 óra fölött",
+            "valasz1pontszam": "3",
+            "valasz2": "25 óra vagy alatta",
+            "valasz2pontszam": "1",
+            "valasz3": "50 és 25 óra között",
+            "valasz3pontszam": "2",
+            "tipp": "safs",
+            "kep": "sad"
+        },
+        {
+            "kerdes": "Hogy alszol el?",
+            "valasz1": "Lefekvés előtt olvasok egy könyvet vagy beszélgetek a szüleimmel/tesómmal, alváskor sötét a szobám.",
+            "valasz1pontszam": "1",
+            "valasz2": "Tévézek vagy zenét hallgatok előtte.",
+            "valasz2pontszam": "2",
+            "valasz3": "Tévére, zenére alszom el és (ha van) éjjeli fénnyel alszom.",
+            "valasz3pontszam": "3",
+            "tipp": "safs",
+            "kep": "sad"
+        }
+    ]
+}
+
+
+
