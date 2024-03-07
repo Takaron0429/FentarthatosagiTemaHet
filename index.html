@@ -16,8 +16,8 @@
 
 <body>
     <div class="conatiner-fluid">
-        <div class="row">
-            <nav class="col-12 navbar navbar-expand-lg bg-body-tertiary">
+        <div class="row" id="navbar">
+            <nav class="col-12 navbar navbar-expand-lg ">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Mathiász János Alapitvány</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -44,13 +44,13 @@
                                 További
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="gallery.html">Galéria</a></li>
-                                <li><a class="dropdown-item" href="#Hir">Hirek</a></li>
-                                <li><a class="dropdown-item" href="#Partner">Partnereink</a></li>
+                                <li><a class="dropdown-item" href="quiz.html">Quiz</a></li>
+                                <li><a class="dropdown-item" href="#BMI">BMI</a></li>
+                                <li><a class="dropdown-item" href="#Sportok">Sportolás</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#Connect">Kapcsolat</a></li>
+                                <li><a class="dropdown-item" href="#kapcs">Kapcsolat</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -63,66 +63,216 @@
             </nav>
         </div>
     </div>
-    <br>
-    <br>
-    <h2>Bemutatkozás vagy valami</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint, veniam blanditiis asperiores quas, cumque quos harum quod odio ad fugiat provident possimus ullam, vitae quia molestias dolor hic ut.</p>
-    <h3>Egészséges életmod</h3>
-    <h3>Táplálkozás</h3>
-    <h3>Tápanyagok</h3>
-    <h3>BMI kalkulátor </h3>
-    
-    <h3>Sportolás</h3>
-
-    <footer>
-
-        <h2 class="text-center">Ideiglenes Footer</h2>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-md-3 col-sm-12 col-lg-3">
-                <img src="images/mati.png" alt="" class="img-responsive" id="footer-logo">
+    <div class="conatiner-fluid">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-            <div class="col-md-6">
-                <h3> Siófoki SZC Mathiász János Technikum és Gimnázium</h3>
-                <p> 8630 Balatonboglár, Szabadság utca 41.</p>
-
-                <a href="https://mathiasz.hu/" target="_blank"><button class="btn btn-success">Főoldal</button></a>
-
-            </div>
-            <div class="col-md-3 col-sm-12 col-lg-3">
-                <ul class="contact">
-                    <li> Szervezet hivatalos neve:
-                        MATHIÁSZ JÁNOS Alapítvány Balatonboglár
-                    </li>
-                    <br>
-                    <li>
-                        Szervezet adószáma:
-                        18767218-1-14
-                    </li>
-                    <br>
-
-                    <li> A szervezet címe:
-                        8630 Balatonboglár, Szabadság utca 41.</li>
-                </ul>
-            </div>
-
-            <hr color="green">
-            <div class="col-12 d-flex justify-content-between ">
-                <div class="p-2">2023 • Siófoki SZC Mathiász János Technikum és Gimnázium</div>
-                <div class="p-2" id="fot">
-                    <a href="https://mathiasz.hu/rolunk/elerhetoseg" target="_blank">Elérhetőségek</a> |
-                    <a href="https://siofok-mathiasz.cms.intezmeny.edir.hu/uploads/Mathiasz_efa8f99e23.pdf"
-                        target="_blank">Adatkezelés</a>
-                    |
-                    <a href="https://mathiasz.hu/impresszum" target="_blank">Impresszum</a> |
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
                 </div>
             </div>
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </footer>
+    </div>
+    <div class="container-fluid">
+
+        <br>
+        <br>
+        <div class="row text-center">
+            <h1>Miért fontos saját egészségünk megőrzése?</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint, veniam blanditiis asperiores
+                quas,
+                cumque quos harum quod odio ad fugiat provident possimus ullam, vitae quia molestias dolor hic ut.</p>
+        </div>
+
+        <br>
+
+        <div class="row" id="Live">
+            <h3 class="text-center">Egészséges életmod</h3>
+            <div class="col-md-4 col-lg-4">
+                <img src="images/k4.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-4 col-lg-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quis quidem ab mollitia nesciunt officiis
+                reprehenderit, nostrum ipsam omnis magnam? Ratione sit facilis dignissimos voluptatibus vero autem
+                molestiae soluta laborum!
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <img src="images/k7.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row" id="food">
+            <h3>Táplálkozás</h3>
+            <div class="col-md-6 col-lg-6 col-sm-12">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo labore laudantium illum sequi ea, nulla
+                    repudiandae consectetur officiis in iste dolores quis sunt exercitationem minima repellat libero
+                    provident soluta necessitatibus!</p>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12">
+                <img src="images/k2.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row" id="BMI">
+            <h3 class="text-center">BMI kalkulátor </h3>
+
+            <div class="col-md-6 col-lg-6 col-sm-12 text-center">
+                <h4>Mi is ez?</h4>
+                <p>A testtömegindex (rövidítve TTI vagy BMI /angol: body mass index/, ritkább elnevezéssel
+                    Quetelet-index) egy statisztikai mérőszám, az egyén testmagasságának és -tömegének arányát méri.
+                    Kiszámítása során a kilogrammban megadott testtömeget osztják a méterben mért testmagasság
+                    négyzetével.</p>
+                <br>
+                <span>
+                    <p>A BMI kiszámításának képlete:
+                        testsúly (kilogrammban) ÷ testmagasság (méterben) ²
+                        Pl. ha valaki 170 cm és 60 kg, akkor
+                        60 ÷ 1,7 ² = 60 ÷ (1,7 X 1,7) = 20,7</p>
+
+                </span>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12">
+                <div>
+                    itt lesz majd ami lesz
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12" id="Sportok">
+            <br>
+            <hr>
+            <h3>Sportolás</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea alias enim exercitationem
+                architecto at est totam nam mollitia delectus et sit itaque beatae incidunt debitis esse, ratione facere
+                libero. Totam.</p>
+            <hr>
+            <br>
+            <div class="row">
+                <div class="col-md-4  col-lg-4">
+                    <img src="ProjektKepek-Szoveg/Quizhez/q3k2.jpg" alt="" class="img-fluid">
+                    <p>SZöveg</p>
+                </div>
+                <div class="col-md-4  col-lg-4">
+                    <img src="ProjektKepek-Szoveg/Quizhez/q3k2.jpg" alt="" class="img-fluid">
+                    <p>SZöveg</p>
+                </div>
+                <div class="col-md-4  col-lg-4">
+                    <img src="ProjektKepek-Szoveg/Quizhez/q3k2.jpg" alt="" class="img-fluid">
+                    <p>SZöveg</p>
+                </div>
+            </div>
+            <div class="row">
+                <hr>
+                <h4>A legnépszerűbb sportágak itthon</h4>
+                <hr>
+                <br>
+                <div class="col-md-6  col-lg-6">
+                    <img src="ProjektKepek-Szoveg/Quizhez/q3k2.jpg" alt="" class="img-fluid">
+                    <p>SZöveg</p>
+                </div>
+                <div class="col-md-6  col-lg-6">
+                    <img src="ProjektKepek-Szoveg/Quizhez/q3k2.jpg" alt="" class="img-fluid">
+                    <p>SZöveg</p>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br>
+        <div class="col-12 text-center" id="Kbox">
+            <h2>Kviz</h2>
+            <p>"Vegyen részt eme nagyszerűen csodálatos quiz kitöltésében a szebb jővőért"</p>
+            <button type="button">Kitöltöm</button>
+        </div>
+
+
+
+
+        <footer id="kapcs">
+
+            <h2 class="text-center">Ideiglenes Footer</h2>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-md-3 col-sm-12 col-lg-3">
+                    <img src="images/mati.png" alt="" class="img-responsive" id="footer-logo">
+                </div>
+                <div class="col-md-6">
+                    <h3> Siófoki SZC Mathiász János Technikum és Gimnázium</h3>
+                    <p> 8630 Balatonboglár, Szabadság utca 41.</p>
+
+                    <a href="https://mathiasz.hu/" target="_blank"><button class="btn btn-success">Főoldal</button></a>
+
+                </div>
+                <div class="col-md-3 col-sm-12 col-lg-3">
+                    <ul class="contact">
+                        <li> Szervezet hivatalos neve:
+                            MATHIÁSZ JÁNOS Alapítvány Balatonboglár
+                        </li>
+                        <br>
+                        <li>
+                            Szervezet adószáma:
+                            18767218-1-14
+                        </li>
+                        <br>
+
+                        <li> A szervezet címe:
+                            8630 Balatonboglár, Szabadság utca 41.</li>
+                    </ul>
+                </div>
+
+                <hr color="green">
+                <div class="col-12 d-flex justify-content-between ">
+                    <div class="p-2">2023 • Siófoki SZC Mathiász János Technikum és Gimnázium</div>
+                    <div class="p-2" id="fot">
+                        <a href="https://mathiasz.hu/rolunk/elerhetoseg" target="_blank">Elérhetőségek</a> |
+                        <a href="https://siofok-mathiasz.cms.intezmeny.edir.hu/uploads/Mathiasz_efa8f99e23.pdf"
+                            target="_blank">Adatkezelés</a>
+                        |
+                        <a href="https://mathiasz.hu/impresszum" target="_blank">Impresszum</a> |
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
     </div>
     <script src="ind.js"></script>
+
 </body>
 
 </html>
