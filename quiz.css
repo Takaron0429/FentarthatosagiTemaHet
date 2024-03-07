@@ -1,16 +1,18 @@
 .quizTitle {
   font-family: NatureBeauty;
   letter-spacing: 0.5cap;
-  font-size: 70px;
+  font-size: 10px;
+  color: white !important;
 }
 .quizHeader {
   text-align: center;
   padding-top: 20px;
-  padding: 50px;
+  padding: 20px;
   background-image: url(images/quizheader.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
+  width: 100%;
   background-position: top center;
   display: flex;
   align-items: center;
@@ -26,12 +28,45 @@
   src: url(fonts/NatureBeautyPersonalUse-9Y2DK.ttf);
 }
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (min-width: 440px) {
   .quizTitle {
     font-family: NatureBeauty;
     letter-spacing: 0.5cap;
-    font-size: 10px;
-    color: white !important;
+    font-size: 20px;
+    color: black !important;
+  }
+}
+
+@media only screen and (min-width: 578px) {
+  .quizTitle {
+    font-family: NatureBeauty;
+    letter-spacing: 0.5cap;
+    font-size: 30px;
+    color: black !important;
+  }
+}
+
+@media only screen and (min-width: 1054px) {
+  .quizTitle {
+    font-family: NatureBeauty;
+    letter-spacing: 0.5cap;
+    font-size: 40px;
+    color: black !important;
+  }
+  .quizHeader {
+    text-align: center;
+    padding-top: 20px;
+    padding: 50px;
+    background-image: url(images/quizheader.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    width: 100%;
+    background-position: top center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -39,5 +74,55 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageborder
+{
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.vineimage
+{
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.quizdiv
+{
+  background: none;
+  border-style: inset inset solid solid;
+  width: 50%;
+  border-color: greenyellow greenyellow silver greenyellow;
+  border-radius: 5px;
+  border-width: 10px;
+}
+
+.quizForm
+{
+  display: flex;
+  justify-content: center;
+}
+
+.answerButtons
+{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quizprogressbar
+{
+  width: 50%;
+}
+
+#kerdeskep
+{
+  width: 400px;
+  height: 300px;
 }

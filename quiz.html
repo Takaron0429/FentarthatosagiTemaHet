@@ -11,40 +11,68 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="quiz.css" />
-    <script defer src="quiz.css"></script>
+    <script defer src="quiz.js"></script>
 </head>
 
 <body>
     <header class="quizHeader">
         <h1 class="quizTitle">Teszteld, mennyire élsz egészségesen!</h1>
     </header>
-    <div class="conatiner-fluid mainContainer">
+    <div class="conatiner mainContainer">
         <div class="row">
-            <div class="col-2 borderLeft">
-                <p>a</p>
-            </div>
-            <div class="col-8">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-                    sapiente consequatur, aut placeat unde ratione autem possimus quam.
-                    Delectus atque est voluptatum velit nostrum! Officiis distinctio
-                    nisi quasi tenetur aut! Lorem ipsum dolor, sit amet consectetur
-                    adipisicing elit. Aut necessitatibus obcaecati, iste ratione
-                    blanditiis sunt exercitationem, suscipit, iure ipsa assumenda
-                    expedita. Illum iste minus omnis vero ea cupiditate nostrum eaque.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum,
-                    quos. Tenetur libero quaerat et ut nobis laborum corporis beatae
-                    illum in earum expedita odit, dicta est cumque laudantium omnis
-                    aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aperiam architecto possimus, exercitationem quaerat sit iste? Iusto
-                    porro unde, illum amet sunt praesentium harum iste quod natus,
-                    nulla, enim nesciunt laboriosam.
-                </p>
-            </div>
-            <div class="col-2 borderRight">
-                <p>a</p>
+            <div class="col-md-12 col-sm-12">
+                <div class="imageborder">
+                    <img class="vineimage" src="images/vineborder.jpg" alt="border" />
+                </div>
             </div>
         </div>
+        <div class="quizdiv">
+            <div class="row">
+                <div class="quizForm col-md-12 col-sm-12">
+                    <h3 id="kerdestext">Ide jön a kérdés</h3>
+                </div>
+            </div>
+            <div class="quizForm row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="answerButtons d-flex justify-content-between">
+                        <div>
+                            <label id="lehetoseg1" for="valasz1">valasz1</label>
+                            <input checked type="radio" id="valasz1" name="valasz" /> 
+                        </div>
+                        <div>
+                            <label id="lehetoseg2" for="valasz2">valasz2</label>
+                            <input type="radio" id="valasz2" name="valasz" /> 
+                        </div>
+                        <div>
+                            <label id="lehetoseg3" for="valasz3">valasz3</label>
+                            <input type="radio" id="valasz3" name="valasz" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                        <img id="kerdeskep" src="images/k1.png" alt="k1" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="quizForm col-md-12 col-sm-12">
+                   <button id="nextbutton" type="button">következő</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="quizForm col-md-12 col-sm-12">
+                    <h5 id="tipp">Ide jön a tipp</h5>
+                </div>
+            </div>
+        </div>
+        <div class="quizprogressbar row">
+            <div class="col-md-12 col-sm-12">
+                <br>
+                <div id="quizprogressvalues" class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div id="quizprogressbar" class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 0%"></div>
+                  </div>
+            </div>
+        </div>
+    </div>
     </div>
 </body>
 
