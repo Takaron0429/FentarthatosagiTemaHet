@@ -122,8 +122,10 @@ span p{
     background-color: black;
     color: white;
 }
-.carousel-inner img{
-   mask-image:  rgba(0, 0, 0, 0.7) ;
+.carousel-inner {
+   mask-image:  rgba(7, 6, 6, 0.7) ;
+   box-shadow: 100 100px 150px rgb(5, 3, 3);
+   
 }
 
 

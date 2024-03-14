@@ -1,15 +1,15 @@
 const bmiSzoveg = document.getElementById("bmi");
 const leirasSzoveg = document.getElementById("desc");
 const form = document.querySelector("form");
-const s = document.getElementById("weight").value;
-const m = document.getElementById("height").value;
+const s = document.getElementById("weight");
+const m = document.getElementById("height");
 
-
-form.addEventListener("submit", Szamol);
+/*
+form.addEventListener("button", Szamol);
 form.addEventListener("reset", Torol);
-
-function Torol(e) {
-  e.preventDefault();
+*/
+function Torol() {
+  
   bmiSzoveg.textContent = 0;
   bmiSzoveg.className = "";
   leirasSzoveg.textContent = "N/A";
@@ -27,12 +27,11 @@ function bmiErtekeles(bmi) {
   }
 }
 
-function Szamol(e) {
-  e.preventDefault();
-
-  const suly = parseFloat(s);
-  const magassag = parseFloat(m);
-
+function Szamol() {
+  const suly = parseFloat(s.value);
+  const magassag = parseFloat(m.value);
+  console.log(suly)
+  console.log(magassag)
   if (isNaN(suly) || isNaN(magassag) || suly <= 0 || magassag <= 0) {
     alert("Kérlek, adj meg érvényes súlyt és magasságot");
     return;
