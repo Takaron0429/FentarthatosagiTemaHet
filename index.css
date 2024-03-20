@@ -114,6 +114,22 @@ th {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(3, 133, 42);
 }
+#Sportok img  .col-md-4 img,
+.col-md-6 img {
+ 
+      border-radius: 10px;
+      transition: all 0.3s ease;
+      filter: grayscale(0%);
+  }
+  
+  #Sportok  .col-md-4 img:hover,
+  .col-md-6 img:hover {
+      transform: scale(1.02);
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+     
+      filter: grayscale(100%);
+  }
+
 hr{height: 5px; background-color: rgb(235, 229, 229);}
 
 #Kbox{
@@ -121,7 +137,15 @@ hr{height: 5px; background-color: rgb(235, 229, 229);}
  margin-top: -40px;
 
 }
+.card-img-top {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
 
+.card-img-top:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap"); 
 
@@ -406,6 +430,19 @@ span p{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: medium;
   color: azure;
-  background-color: #6EF9F5;
+  background-color: #f9c86e;
   
+}
+#HealthyFood #KCAL,.list-group-item{
+    font-weight: normal; 
+    font-weight: bold; 
+}
+#HealthyFood {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#HealthyFood .card {
+  margin: 20px; /* Megfelelő margó az egyenletes eloszlás érdekében */
 }
