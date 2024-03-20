@@ -10,8 +10,9 @@ let tipp = document.getElementById("tipp");
 let nextbutton = document.getElementById("nextbutton");
 let progressbar = document.getElementById("quizprogressbar");
 let quizprogressvalues = document.getElementById("quizprogressvalues");
-let index = 0;
-let kszam = 1;
+let ponttext = document.getElementById("ponttext");
+let quizGame = document.getElementById("quizGame");
+let index = 1;
 let pontszam = 0;
 
 fetch("json.json")
@@ -22,7 +23,9 @@ fetch("json.json")
         let kerdesekszama = data.kerdesek.length;
         let element = data.kerdesek[index];
 
-        kerdes.innerHTML = kszam + "." + element.kerdes;
+        ponttext.innerHTML = kerdesekszama + "/" + index;
+
+        kerdes.innerHTML = index + ". " + element.kerdes;
 
         lehetoseg1.innerHTML = element.valasz1;
         lehetoseg2.innerHTML = element.valasz2;
@@ -40,7 +43,7 @@ fetch("json.json")
 
         function quizKerdesek()
         {       
-            kerdes.innerHTML =  kszam + "." + element.kerdes;
+            kerdes.innerHTML =  index + ". " + element.kerdes;
             lehetoseg1.innerHTML = element.valasz1;
             lehetoseg2.innerHTML = element.valasz2;
             lehetoseg3.innerHTML = element.valasz3;
@@ -72,9 +75,18 @@ fetch("json.json")
         }
      
         nextbutton.addEventListener("click", () => {
-            index++;
-            kszam++;
+
+            if (index < data.kerdesek.length) {
+                index++;
+                console.log(index);
+            }
+
+            if (index == data.kerdesek.length) {
+                quizGame.hidden = true;
+                ponttext.hidden = true;
+            }
             element = data.kerdesek[index];
+            ponttext.innerHTML = kerdesekszama + "/" + index;
             quizKerdesek();
             pontozas();
             console.log(index, element);
