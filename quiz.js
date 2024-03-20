@@ -11,7 +11,8 @@ let nextbutton = document.getElementById("nextbutton");
 let progressbar = document.getElementById("quizprogressbar");
 let quizprogressvalues = document.getElementById("quizprogressvalues");
 let index = 0;
-
+let kszam = 1;
+let pontszam = 0;
 
 fetch("json.json")
 
@@ -21,13 +22,16 @@ fetch("json.json")
         let kerdesekszama = data.kerdesek.length;
         let element = data.kerdesek[index];
 
-        kerdes.innerHTML = element.kerdes;
+        kerdes.innerHTML = kszam + "." + element.kerdes;
+
         lehetoseg1.innerHTML = element.valasz1;
         lehetoseg2.innerHTML = element.valasz2;
         lehetoseg3.innerHTML = element.valasz3;
-        valasz1.innerHTML = element.valasz1pontszam;
-        valasz2.innerHTML = element.valasz2pontszam;
-        valasz3.innerHTML = element.valasz3pontszam;
+
+        valaszpont1.innerHTML = element.valasz1pontszam;
+        valaszpont2.innerHTML = element.valasz2pontszam;
+        valaszpont3.innerHTML = element.valasz3pontszam;
+
         kerdeskep.src = element.kep;
         tipp.innerHTML = element.tipp;
 
@@ -35,25 +39,44 @@ fetch("json.json")
         progressbar.style.width = pbwidth + "%";
 
         function quizKerdesek()
-        {
-            kerdes.innerHTML = element.kerdes;
+        {       
+            kerdes.innerHTML =  kszam + "." + element.kerdes;
             lehetoseg1.innerHTML = element.valasz1;
             lehetoseg2.innerHTML = element.valasz2;
             lehetoseg3.innerHTML = element.valasz3;
-            valasz1.innerHTML = element.valasz1pontszam;
-            valasz2.innerHTML = element.valasz2pontszam;
-            valasz3.innerHTML = element.valasz3pontszam;
+            valaszpont1.innerHTML = element.valasz1pontszam;
+            valaszpont2.innerHTML = element.valasz2pontszam;
+            valaszpont3.innerHTML = element.valasz3pontszam;
             kerdeskep.src = element.kep;
             tipp.innerHTML = element.tipp;
         }
+
+        function pontozas()
+        {
+            let selected = 0;
+
+            if (valasz1.checked) 
+            {
+                selected = element.valasz1pontszam;
+                pontszam += parseInt(selected);
+            } 
+            else if (valasz2.checked) 
+            {
+                selected = element.valasz2pontszam;
+                pontszam += parseInt(selected)
+            } 
+            else if (valasz3.checked) {
+                selected = element.valasz3pontszam;
+                pontszam += parseInt(selected)
+            }
+        }
      
-
-        console.log(kerdesekszama);
-
         nextbutton.addEventListener("click", () => {
             index++;
+            kszam++;
             element = data.kerdesek[index];
             quizKerdesek();
+            pontozas();
             console.log(index, element);
             pbwidth += 100/kerdesekszama;
             progressbar.style.width = pbwidth + "%";
