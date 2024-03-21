@@ -28,9 +28,6 @@
         </div>
         <div id="quizdiv" class="quizdiv">
             <div id="quizGame">
-                <div hidden class="results">
-                    <p>Nyertél</p>
-                </div>
                 <div class="cabages">
                     <img class="cabage1" src="images/cabbage1.png" alt="káposzta">
                 </div>
@@ -45,19 +42,16 @@
                             <div class="inlined">
                                 <input class="radiobutton" checked type="radio" id="valasz1" name="valasz" />
                                 <label id="lehetoseg1" for="valasz1">valasz1</label>
-                                <p id="valaszpont1" hidden></p>
                             </div>
                             <br>
                             <div class="inlined">
                                 <input class="radiobutton" type="radio" id="valasz2" name="valasz" />
                                 <label id="lehetoseg2" for="valasz2">valasz2</label>
-                                <p id="valaszpont2" hidden></p>
                             </div>
                             <br>
                             <div class="inlined">
                                 <input class="radiobutton" type="radio" id="valasz3" name="valasz" />
                                 <label id="lehetoseg3" for="valasz3">valasz3</label>
-                                <p id="valaszpont3" hidden></p>
                             </div>
                         </div>
                     </div>
@@ -80,11 +74,14 @@
                     <img class="cabbage2" src="images/cabbage.png" alt="káposzta">
                 </div>
             </div>
-            <div class="quizprogressbar">
-                <div id="quizprogressvalues" class="progress" role="progressbar" aria-label="Animated striped example"
-                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                    <div id="quizprogressbar" class="progress-bar bg-success progress-bar-striped progress-bar-animated"
-                        style="width: 0%"></div>
+            <div id="quizprogessbar">
+                <div class="quizprogressbar">
+                    <div id="quizprogressvalues" class="progress" role="progressbar"
+                        aria-label="Animated striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <div id="quizprogressbar"
+                            class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                            style="width: 0%"></div>
+                    </div>
                 </div>
             </div>
         </div>

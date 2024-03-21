@@ -14,7 +14,7 @@
         },
         {
             "kerdes": "Szoktál esténként nassolni?",
-            "valasz1": "Egy jó film vagy sorozat, egy pizza, chips vagy pattogatott kukorica… ez az ideális esti program. ;)",
+            "valasz1": "Egy jó film vagy sorozat, egy pizza, chips vagy pattogatott kukorica… ez az ideális esti program.;)",
             "valasz1pontszam": "3",
             "valasz2": "Igen, de ha lehet, akkor aszalt gyümölcsöt vagy olajos magvakat.",
             "valasz2pontszam": "2",
@@ -68,17 +68,6 @@
             "kep": "/ProjektKepek-Szoveg/Quizhez/q6k.jpg"
         },
         {
-            "kerdes": "Milyen táplálékkiegészítőket szedsz rendszeresen?",
-            "valasz1": "Az meg mi?",
-            "valasz1pontszam": "3",
-            "valasz2": "Vitaminokat, abból is inkább C-, D vitamin.",
-            "valasz2pontszam": "2",
-            "valasz3": "Pro- és prebiotikumokat, vitaminokat és proteint, ha edzek.",
-            "valasz3pontszam": "1",
-            "tipp": "Az egészséges étrendben az ajánlott húsadag mennyisége hetente általában 500-750 gramm között van az átlagos felnőttek számára) sovány hús ajánlott, például csirkehús, pulykahús, hal vagy sovány marhahús formájában.  azonban változatosan táplálkozni és figyelni a teljes étrend összetételére is, beleértve a zöldségeket, gyümölcsöket, teljes kiőrlésű gabonákat és egyéb fehérjeforrásokat is.",
-            "kep": "/ProjektKepek-Szoveg/Quizhez/q7k.jpg"
-        },
-        {
             "kerdes": "Mennyi húst eszel egy héten?",
             "valasz1": "Legalább 4-5 kg-ot biztosan. Kell az erő.",
             "valasz1pontszam": "3",
@@ -87,7 +76,7 @@
             "valasz3": "Nem eszem húst, vegetáriánus vagyok.",
             "valasz3pontszam": "1",
             "tipp": "A hús helyettesítő termékek számos előnnyel járhatnak: \n 1. Egészségesebb alternatíva: Sok hús helyettesítő termék alacsonyabb zsír- és koleszterintartalommal rendelkezik, valamint magasabb rost-, vitamin- és ásványianyag-tartalommal, ami egészségesebb étrendet eredményezhet. \n 2. Környezetbarát: Az állati húsok termelése jelentős környezeti hatással járhat, míg a hús helyettesítő termékek általában kevésbé terhelik a környezetet, például kevesebb víz- és energiafelhasználással, valamint alacsonyabb üvegházhatású gáz-kibocsátással. \n 3. Állatjólét: A hús helyettesítő termékek fogyasztása lehetőséget biztosít arra, hogy az állatokat kevésbé terhelő étrendet kövessünk, ami sokak számára fontos szempont.",
-            "kep": "/ProjektKepek-Szoveg/Quizhez/q8k.jpeg"
+            "kep": "/ProjektKepek-Szoveg/Quizhez/q7k.jpg"
         },
         {
             "kerdes": "Próbáltad már a húshelyettesítő termékeket?",
@@ -97,9 +86,21 @@
             "valasz2pontszam": "3",
             "valasz3": "Igen, de nem az én világom.",
             "valasz3pontszam": "2",
+            "tipp": "Egészségesebb alternatíva: Sok hús helyettesítő termék alacsonyabb zsír- és koleszterintartalommal rendelkezik, valamint magasabb rost-, vitamin- és ásványianyag-tartalommal, ami egészségesebb étrendet eredményezhet.",
+            "kep": "/ProjektKepek-Szoveg/Quizhez/q8k.jpeg"
+        },
+        {
+            "kerdes": "Mennyi tejterméket fogyasztasz?",
+            "valasz1": "Minden, ami tej, sajt, az jöhet. Bármennyi, bármikor.",
+            "valasz1pontszam": "3",
+            "valasz2": "Csak akkor, ha megkívánom. Amúgy nem vagyok nagy sajtos.",
+            "valasz2pontszam": "2",
+            "valasz3": "Nem eszem ilyesmit. Ha igen, az is inkább növényi.",
+            "valasz3pontszam": "1",
             "tipp": " A tejtermékek kiváló kalcium- és fehérjeforrások, amelyek fontosak a csontok, izmok és fogak egészségének fenntartásához. Emellett tartalmaznak más fontos tápanyagokat is, mint például B-vitaminok és D-vitamin. A probiotikumokban gazdag tejtermékek segíthetik az egészséges emésztést és a bélflóra egyensúlyát. Fontos azonban figyelembe venni az egyéni intoleranciákat és érzékenységeket.",
             "kep": "/ProjektKepek-Szoveg/Quizhez/q9k.jpg"
-        },
+        }
+        ,
         {
             "kerdes": "Tudod mit jelent a mikrobiom?",
             "valasz1": "A velünk élő mikróbák, ezek egy része a bélrendszerben található jótékony baktériumok.",
