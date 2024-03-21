@@ -115,7 +115,7 @@ th {
     background-color: rgb(3, 133, 42);
 }
 #Sportok img  .col-md-4 img,
-.col-md-6 img {
+#Sportok .col-md-6 img {
  
       border-radius: 10px;
       transition: all 0.3s ease;
@@ -123,7 +123,7 @@ th {
   }
   
   #Sportok  .col-md-4 img:hover,
-  .col-md-6 img:hover {
+ #Sportok .col-md-6 img:hover {
       transform: scale(1.02);
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
      
@@ -154,26 +154,23 @@ span p{
     font-style: italic;
 }
 #BMI{
-   background-color: rgb(59, 136, 94);
+
    color: white;
    border-radius: 30px;
 }
-
-
-
 
   #BMI{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: "Jost", sans-serif;
-    background-color: #444;
+    background-color: #3a3d3d;
   }
   
  #BMI h1 {
     text-align: center;
   }
-#BMI #ha,span { font-size: larger; font-weight: bolder; letter-spacing: 2px; text-align: justify; }
+#BMI #ha,span { font-size: larger; font-weight: bolder;  text-align: justify; }
 #BMI .text-center{border-right: 2px solid chartreuse;}
  #BMI .container {
     width: 90%;
@@ -418,6 +415,7 @@ span p{
   height: auto;
   border-radius: 5px;
 }
+
 #Live  p {
   font-size: medium;
   font-weight: 400;
@@ -445,4 +443,29 @@ span p{
 
 #HealthyFood .card {
   margin: 20px; /* Megfelelő margó az egyenletes eloszlás érdekében */
+}
+
+#Kbox {
+  background:  rgba(0, 0, 0, 0.7)  url(ProjektKepek-Szoveg/k7.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    height: 600px;
+    min-height: max-content;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+   text-align: justify;
+   align-items: center;
+   overflow: hidden;
+   color: white;
+   
+   margin-top: -50px;
+   margin-bottom: -50px;
+}
+#Kbox .col-12{
+  margin-top: 150px;
+
 }
